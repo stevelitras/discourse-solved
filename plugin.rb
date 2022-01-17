@@ -112,6 +112,7 @@ SQL
         notification_data = {
           message: 'solved.accepted_notification',
           display_username: acting_user.username,
+          display_userid: acting_user.id,
           topic_title: topic.title
         }.to_json
 
